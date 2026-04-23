@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ca">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="icon" type="image/svg+xml" href="src/assets/drac.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jordi's</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo-container">
+        <h1>RUNS <span class="red">&amp;</span> ROSES</h1>
+        <img src="public/assets/drac.png" alt="Drac">
+      </div>
+    </header>
+    <main>
+      <section id="landing" class="main-content">
+        <div id="game-description" class="game-description">
+          <p>AJUDA EN SANT JORDI A RECOLLIR LES <span class="red">10 ROSES</span> ABANS QUE S'ACABI EL TEMPS. SALTA PER LES PLATAFORMES, EVITA CAURE I RECULL-LES TOTES PER GUANYAR. TENS 60 SEGONS.</p>
+        </div>
+        <div id="game-controls" class="game-controls">
+          <p>CONTROLS</p>
+          <div class="teclas">
+            <kbd>←</kbd>
+            <kbd>→</kbd>
+            <span>MOURE</span>
+            <kbd>⭡</kbd>
+            <span>SALTAR</span>
+          </div>
+        </div>
+        <button id="play-btn">Jugar!</button>
+      </section>
+
+      <section id="game-play" class="hidden">
+        <div id="game-container"></div>
+        <button id="retry-btn">Tornar a jugar!</button>
+      </section>
+    </main>
+    <script type="module" src="src/main.js"></script>
+  </body>
+</html>
