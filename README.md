@@ -127,4 +127,4 @@ bunx vercel --prod
 
 ---
 
-Made with 🌹 by Mili — Institut MVM · Sant Jordi 2026
+Made by Mili — Institut MVM · Sant Jordi 2026
